@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Miत्रा   | Digital Visiting Card</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:#000;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+}
+.container{
+  width:100%;
+  max-width:430px;
+  min-height:100vh;
+  background:#0b0b0b;
+  padding:26px 18px 40px;
+}
+
+/* Header */
+.logo{
+  text-align:center;
+  margin-bottom:14px;
+}
+.logo img{
+  max-width:140px;
+}
+.name{
+  text-align:center;
+  font-size:24px;
+  font-weight:600;
+}
+.tagline{
+  text-align:center;
+  font-size:14px;
+  color:#aaa;
+  margin-top:6px;
+}
+
+/* Quick actions */
+.action-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+  margin-top:28px;
+}
+.action{
+  background:#151515;
+  border-radius:16px;
+  padding:14px 0;
+  text-align:center;
+  color:#fff;
+  text-decoration:none;
+  font-size:12px;
+}
+.action i{
+  font-size:18px;
+  margin-bottom:6px;
+  display:block;
+}
+
+/* Big buttons */
+.primary-btn{
+  margin-top:22px;
+  display:block;
+  background:#fff;
+  color:#000;
+  text-align:center;
+  padding:15px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.instagram-btn{
+  margin-top:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+  color:#fff;
+  padding:15px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  font-size:15px;
+}
+
+/* Sections */
+.section{
+  margin-top:34px;
+}
+.section h3{
+  font-size:16px;
+  margin-bottom:12px;
+}
+.card{
+  background:#151515;
+  border-radius:18px;
+  padding:16px;
+  font-size:13.5px;
+  color:#ccc;
+  line-height:1.6;
+}
+
+/* Tags */
+.tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.tag{
+  background:#1f1f1f;
+  padding:9px 14px;
+  border-radius:20px;
+  font-size:12px;
+}
+
+/* Social */
+.social{
+  display:flex;
+  justify-content:center;
+  gap:22px;
+  margin-top:28px;
+}
+.social a{
+  color:#fff;
+  font-size:22px;
+}
+
+.footer{
+  text-align:center;
+  font-size:11px;
+  color:#777;
+  margin-top:32px;
+}
+.whatsapp-greet-btn{
+  margin-top:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  background:#25D366;
+  color:#fff;
+  padding:15px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  font-size:15px;
+}
+.whatsapp-greet-btn:hover{
+  opacity:0.9;
+}
+.floating-share{
+  position:fixed;
+  bottom:22px;
+  right:18px;
+  width:56px;
+  height:56px;
+  border-radius:50%;
+background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+  color:#fff;
+  border:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:20px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.4);
+  cursor:pointer;
+  z-index:9999;
+}
+.floating-share:hover{
+  background:#111;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <!-- LOGO -->
+  <div class="logo">
+    <img src="mitra.png" alt="Mitra">
+  </div>
+
+  <!-- BRAND -->
+  <div class="name">Miत्रा</div>
+  <div class="tagline">Apparel • Footwear • Accessories</div>
+
+  <!-- QUICK ACTIONS -->
+  <div class="action-grid">
+    <a class="action" href="REVIEW_LINK" target="_blank">
+      <i class="fa-solid fa-star"></i>Review
+    </a>
+    <a class="action" href="MAPS_LINK" target="_blank">
+      <i class="fa-solid fa-location-dot"></i>Maps
+    </a>
+    <a class="action" href="https://wa.me/919665548844" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>WhatsApp
+    </a>
+    <a class="action" href="tel:9665548844">
+      <i class="fa-solid fa-phone"></i>Call
+    </a>
+  </div>
+
+  <!-- BIG CTA -->
+
+  <!-- INSTAGRAM -->
+  <a class="instagram-btn" href="https://www.instagram.com/mitracollection05" target="_blank">
+    <i class="fab fa-instagram"></i> Follow Us on Instagram
+  </a>
+<a class="primary-btn" href="mitra-contact.vcf" download>
+  💾 Save Contact
+</a>
+<a class="whatsapp-greet-btn" 
+   href="https://wa.me/919665548844?text=Hi%20Mitra%20👋%0AI%20just%20saved%20your%20contact%20from%20your%20digital%20visiting%20card.%0ALooking%20forward%20to%20shopping%20with%20you!" 
+   target="_blank">
+  💬 Say Hi on WhatsApp
+</a>
+
+  <!-- ABOUT -->
+  <div class="section">
+    <h3>About Us</h3>
+    <div class="card">
+      <strong>Your Destination for Authentic Style</strong><br><br>
+      Welcome to Mitra Collections, your premier destination for high-end fashion, footwear, and accessories.
+      We believe style is a reflection of personality, and quality should never be compromised.<br><br>
+      We stand apart by offering a curated selection of products that are <strong>100% original and branded</strong>.
+      Our specialized collection brings the world’s leading brands right to your doorstep.
+    </div>
+  </div>
+
+  <!-- CLOTHING -->
+  <div class="section">
+    <h3>Clothing</h3>
+    <div class="tags">
+      <div class="tag">Mens Wear</div>
+      <div class="tag">Ladies Wear</div>
+      <div class="tag">Winter Wear</div>
+      <div class="tag">Tracks</div>
+      <div class="tag">Dry Fits</div>
+      <div class="tag">Formals</div>
+    </div>
+  </div>
+
+  <!-- FOOTWEAR -->
+  <div class="section">
+    <h3>Footwear</h3>
+    <div class="tags">
+      <div class="tag">Sports Shoes</div>
+      <div class="tag">Formal Shoes</div>
+      <div class="tag">Sandals</div>
+      <div class="tag">Heels</div>
+      <div class="tag">Boots</div>
+      <div class="tag">Hiking Shoes</div>
+    </div>
+  </div>
+
+  <!-- ACCESSORIES -->
+  <div class="section">
+    <h3>Accessories</h3>
+    <div class="tags">
+      <div class="tag">Goggles</div>
+      <div class="tag">Watches</div>
+      <div class="tag">Iron</div>
+      <div class="tag">Steam Iron</div>
+      <div class="tag">Perfumes</div>
+      <div class="tag">Luggage Bags</div>
+      <div class="tag">Premium Hand Bags</div>
+    </div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="social">
+    <a href="https://www.instagram.com/mitracollection05"><i class="fab fa-instagram"></i></a>
+    <a href="FACEBOOK_LINK"><i class="fab fa-facebook"></i></a>
+    <a href="mailto:EMAIL_ADDRESS"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+
+  <div class="footer">
+    © Mitra · Premium Fashion Destination
+  </div>
+
+</div>
+<button class="floating-share" onclick="shareCard()" aria-label="Share Digital Card">
+  <i class="fa-solid fa-share-nodes"></i>
+</button>
+<script>
+function shareCard(){
+  const url = "https://imaginarygifts.github.io/DigitalVisitingCard_Mitra/";
+  const text = "Check out MITRA – Premium Fashion, Footwear & Accessories";
+
+  if (navigator.share) {
+    navigator.share({
+      title: "MITRA Digital Visiting Card",
+      text: text,
+      url: url
+    });
+  } else {
+    navigator.clipboard.writeText(url);
+    alert("Link copied! You can now share the digital card.");
+  }
+}
+</script>
+</body>
+</html>
